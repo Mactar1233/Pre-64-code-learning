@@ -87,6 +87,6 @@ void opcontrol() {
 
 		left_mtr = left;
 		right_mtr = right;
-		pros::delay(20);
+		pros::delay(20); 
 	}
 }
