@@ -1,5 +1,6 @@
 #include "main.h"
 #include "math.h"
+#include "Driver.hpp"
 /**
  * A callback function for LLEMU's center button.
  *
@@ -76,6 +77,7 @@ void autonomous() {}
 void opcontrol() {
 		while(true){
 			setdrivemotors(); 
+			pros::delay(10); 
 		}
 	} 
 
